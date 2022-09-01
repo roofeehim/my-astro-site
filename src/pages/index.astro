@@ -1,0 +1,9 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Images } from "../components/Images";
+---
+
+<Layout title="Welcome to Astro.">
+	<Images client:load />
+	<a href="./about">about</a>
+</Layout>
